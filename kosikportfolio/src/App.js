@@ -1,11 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
-import Header from './components/Header';
-import About from './components/About';
-import Work from './components/work';
-import Contact from './components/Contact';
+// import Header from './components/Header';
+// import About from './components/About';
+// import Work from './components/Work';
+// import Contact from './components/Contact';
 import Navbar from './components/Navbar'
 
 function App() {
@@ -13,21 +12,21 @@ function App() {
     <div className="App">
       <Navbar></Navbar>
       <div className="App-header">
-      <Header></Header>
+      {/* <Header></Header> */}
       </div>
       
       <div className='About'>
-        <About></About>
+        {/* <About></About> */}
       </div>
       <div className='work'>
-        <Work></Work>
+        {/* <Work></Work> */}
       </div>
       <div className='contact'>
-        <Contact></Contact>
+        {/* <Contact></Contact> */}
       </div>
     </div>
   );
 }
-}
+
 
 export default App;
