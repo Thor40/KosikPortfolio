@@ -24,6 +24,12 @@
   color: white;
 }
 
+.fixed-right {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
 .App-link {
   color: #61dafb;
 }

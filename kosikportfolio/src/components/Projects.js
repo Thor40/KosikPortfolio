@@ -9,7 +9,7 @@ function Project() {
         <div className="row">
         {data.projects.map((project)=>(
           <div className="col">
-          <div className="card m-1" style={ { width: "30rem" } }>
+          <div className="card m-1" style={ { width: "100vw" } }>
             <img src={`/assets/images/${project.imageSrc}`} className="card-img-top" alt="..." />
             <div className="card-body">
           <h3 className="card-title">{project.title}</h3>

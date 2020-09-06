@@ -2,43 +2,38 @@ import React from 'react';
 import { Link, animateScroll as scroll } from "react-scroll";
 import { Navbar, Nav } from 'react-bootstrap';
 
-
 function Navigator() {
     return (
-        <Navbar fixed="bottom">
-
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-            <Nav>
-                <li><Link
-                    className='link'
+        <Navbar fixed="top" className="justify-content-end">
+            <Nav className="m-auto align-items-center">
+                <Nav.Item><Link
+                    className='link m-3'
                     activeClass="active"
                     to="about"
                     spy={true}
                     smooth={true}
                     offset={-70}
                     duration={500}
-                >About</Link></li>
-                <li><Link
-                    className='link'
+                >About</Link></Nav.Item>
+                <Nav.Item><Link
+                    className='link m-3'
                     activeClass="active"
                     to="work"
                     spy={true}
                     smooth={true}
                     offset={-70}
                     duration={500}
-                >Work</Link></li>
-                <li><Link
-                    className='link'
+                >Work</Link></Nav.Item>
+                <Nav.Item><Link
+                    className='link m-3'
                     activeClass="active"
                     to="contact"
                     spy={true}
                     smooth={true}
                     offset={-70}
                     duration={500}
-                >Contact</Link></li>
+                >Contact</Link></Nav.Item>
             </Nav>
-            </Navbar.Collapse>
         </Navbar>
     );
 };

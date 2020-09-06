@@ -13,7 +13,7 @@ function About() {
                     <p>{data.abouttext}</p>
             </Fade>
             </div>
-            <img src={img} alt='about image'></img>
+            <img src={img} alt='about image' className="w-75"></img>
         </div>
     );
 }
