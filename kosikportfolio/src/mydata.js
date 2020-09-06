@@ -1,7 +1,7 @@
 export default
     {
         // Header Component
-        name :'Nicholas Kosik',
+        name :'Nicholas Kosik.',
         headerTagline: [
             //Line 1 For Header
                 'Howdy',
@@ -21,7 +21,7 @@ export default
             id: 1,
             title:'Project One', 
              service:'UI/UX Design',
-             imageSrc:"https://images.unsplash.com/photo-1558104631-0fa41a8f6c20?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+             imageSrc:"food.jpg",
              url:'http://chetanverma.com/'
             },
             {

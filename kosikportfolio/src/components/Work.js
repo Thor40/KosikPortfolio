@@ -10,7 +10,14 @@ function Work() {
         <h1 className='heading'>
         <Fade bottom cascade>Work.</Fade></h1>
         <div className='work-content'>
-                    <Projects></Projects>
+                {data.projects.map((project)=>(
+                    <Projects key={project.id}
+                             title = {project.title}
+                             service = {project.service}
+                             imageSrc = {project.imageSrc}
+                             url={project.url}
+                     ></Projects>
+                ))}
         </div>
         </div>
     );
