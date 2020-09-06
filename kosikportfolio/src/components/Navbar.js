@@ -7,7 +7,8 @@ function Navigator() {
         <Navbar fixed="top" className="justify-content-end">
             <Nav className="m-auto align-items-center">
                 <Nav.Item><Link
-                    className='link m-3'
+                    style={{ textDecoration: 'none' }}
+                    className='link text-secondary m-3'
                     activeClass="active"
                     to="about"
                     spy={true}
@@ -16,7 +17,8 @@ function Navigator() {
                     duration={500}
                 >About</Link></Nav.Item>
                 <Nav.Item><Link
-                    className='link m-3'
+                    style={{ textDecoration: 'none' }}
+                    className='link text-secondary m-3'
                     activeClass="active"
                     to="work"
                     spy={true}
@@ -25,7 +27,8 @@ function Navigator() {
                     duration={500}
                 >Work</Link></Nav.Item>
                 <Nav.Item><Link
-                    className='link m-3'
+                    style={{ textDecoration: 'none' }}
+                    className='link text-secondary m-3'
                     activeClass="active"
                     to="contact"
                     spy={true}

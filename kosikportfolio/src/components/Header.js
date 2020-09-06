@@ -23,7 +23,7 @@ function Header() {
                             <br></br>
                     
                     </p>
-                    <Button variant="outline-secondary dark" size="lg" className="mt-5" block href={`mailto:${data.contactEmail}`}>
+                    <Button variant="outline-dark text-light" size="lg" className="mt-5" block href={`mailto:${data.contactEmail}`}>
                         Contact
                     </Button>
                 </Fade>
