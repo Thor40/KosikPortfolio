@@ -1,26 +1,19 @@
 import React from 'react';
 import { Link, animateScroll as scroll } from "react-scroll";
+import { Navbar, Nav } from 'react-bootstrap';
 
-function Navbar() {
-    
+
+function Navigator() {
     return (
-        <nav>
-            <ul>
+        <Navbar fixed="bottom">
+
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+            <Nav>
                 <li><Link
                     className='link'
                     activeClass="active"
-                    to="home"
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
-                    onClick={scroll.scrollToTop()}>
-                        Home
-                </Link>
-                <li><Link
-                    className='link'
-                    activeClass="active"
-                    to="About"
+                    to="about"
                     spy={true}
                     smooth={true}
                     offset={-70}
@@ -44,10 +37,10 @@ function Navbar() {
                     offset={-70}
                     duration={500}
                 >Contact</Link></li>
-                </li>
-            </ul>
-        </nav>
+            </Nav>
+            </Navbar.Collapse>
+        </Navbar>
     );
 };
 
-export default Navbar;
+export default Navigator;
