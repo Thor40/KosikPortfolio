@@ -1,12 +1,11 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 import data from '../mydata';
-import { Jumbotron, Container, Button } from 'react-bootstrap';
+import { Container, Button } from 'react-bootstrap';
 
 function Header() {
 
     return (
-
             <Container fluid className="App-header">
                 <Container>
                     <h1>
@@ -23,7 +22,7 @@ function Header() {
                             <br></br>
                     
                     </p>
-                    <Button variant="outline-dark text-light" size="lg" className="mt-5" block href={`mailto:${data.contactEmail}`}>
+                    <Button variant="outline-success dark" size="lg" className="mt-5" block href={`mailto:${data.contactEmail}`}>
                         Contact
                     </Button>
                 </Fade>
