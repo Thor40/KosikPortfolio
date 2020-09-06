@@ -3,7 +3,7 @@ import * as Scroll from 'react-scroll';
 import { Link, animateScroll as scroll } from 'react-scroll';
 
 function Navbar() {
-    let scroll    = Scroll.animateScroll;
+
     return (
         <nav>
             <ul>
