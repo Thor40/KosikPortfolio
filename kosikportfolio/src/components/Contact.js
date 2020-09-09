@@ -1,6 +1,5 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
-import data from '../mydata';
 import { FaGithubSquare  } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import { GrInstagram } from 'react-icons/gr';

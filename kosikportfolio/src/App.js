@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header';
@@ -8,6 +8,11 @@ import Contact from './components/Contact';
 import Navigator from './components/Navbar'
 
 function App() {
+
+  useEffect(() => {
+    document.title = "Nicholas Kosik";
+  }, []);
+
   return (
     <div className="App">
       <Navigator></Navigator>
