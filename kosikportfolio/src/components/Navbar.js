@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 import { Navbar, Nav } from 'react-bootstrap';
 
 function Navigator() {

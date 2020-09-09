@@ -34,14 +34,22 @@
   left: 0;
   width: 100%;
 }
-/* .fixed-right {
-  position: fixed;
-  top: 0;
-  right: 0;
-} */
+
+.col {
+  flex-grow: none;
+}
 
 .App-link {
   color: #61dafb;
+}
+
+.projectImg {
+  height: auto;
+  width: 100%;
+}
+
+.b-none {
+  border: none;
 }
 
 @keyframes App-logo-spin {

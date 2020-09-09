@@ -12,55 +12,48 @@ export default
     ],
         //Contact Email
         contactEmail:'nicholas.kosik@gmail.com',
-        // About me text
+        // About Me Text
         abouttext: "Full-Stack Programmer, looking for their next project.",
-        // aboutImage:'../assets/images/image0.jpeg',
-       // Change Projects Here 
+        // aboutImage:'../assets/images/image0.jpeg', pic of me
        projects:[
            {
-            id: 1,
-            title:'Project One', 
-             service:'UI/UX Design',
+             id: 0,
+             title:'Nutrifinder', 
+             info:'JavaScript web app using a third party API to allow user to keyword-search for foods, nutrition facts, and recipes.',
              imageSrc:"food.jpg",
-             url:'http://chetanverma.com/'
+             github:'https://github.com/durcoorigin/nutrifinder',
+             deploy: ''
             },
             {
-                id: 2,//DO NOT CHANGE THIS (Please)😅
-                title: 'Project Two',
-                service: 'Website Development',
-                imageSrc: "https://images.unsplash.com/photo-1554866585-cd94860890b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-                url: 'http://chetanverma.com/'
+                id: 1,
+                title: 'The Informed Artist',
+                info: 'JavaScript web app using MySQL2 and Sequelize to allow users to upload images in this art sharing platform',
+                imageSrc: "art.jpg",
+                github: 'https://github.com/roxyvaught/The-Informed-Artist',
+                deploy: ''
             },
             { 
-                id: 3,//DO NOT CHANGE THIS (Please)😅
-                title: 'Project Three',
-                service: 'Web App',
-                imageSrc: "https://images.unsplash.com/photo-1511500118080-275313ec90a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-                url: 'http://chetanverma.com/'
-            },
-            {
-                id: 4,//DO NOT CHANGE THIS (Please)😅
-                title: 'Project Four',
-                service: 'Branding',
-                imageSrc: "https://images.unsplash.com/photo-1558452919-08ae4aea8e29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-                url: 'http://chetanverma.com/'
-           }
+                id: 2,
+                title: 'Help Exchange',
+                info: 'Using MERN stack with MongoDB and Mongoose, and GraphQL, this social media volunteer app allows users to request for help or for volunteering to help.',
+                imageSrc: "help.jpg",
+                github: 'https://rocky-retreat-38962.herokuapp.com/',
+                deploy: ''
+            }
 
-                    /*
-
-                    If You Want To Add More Project just Copy and Paste This At The End (Update the id Respectively)
-                ,{
-                id: 5,
-                title: 'Project Five',
-                service: 'Something Amazing',
-                imageSrc: "",
-                url: ''
+            /*
+            }
+                id:
+                title:
+                description:
+                imageSrc:
+                url:
             }
                 */
         ],
         social: [
             // Add Or Remove The Link Accordingly
-            {   name:'Github',
+            {   name:'github',
                 url:'https://github.com/chetanverma16'},
             {
                 name: 'Behance',
