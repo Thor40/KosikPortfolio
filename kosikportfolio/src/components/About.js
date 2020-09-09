@@ -1,5 +1,6 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
+import Flip from 'react-reveal/Flip';
 import data from '../mydata';
 import { Jumbotron, Container, ListGroup} from 'react-bootstrap';
 
@@ -9,7 +10,7 @@ function About() {
         <Jumbotron fluid className="bg-light m-5 about">
                 <Container>
                     <h1>
-                        <Fade bottom cascade>About Me.</Fade>
+                        <Flip bottom cascade>About Me.</Flip>
                     </h1>
                 </Container>
                 <Container>
@@ -21,22 +22,22 @@ function About() {
                 </Container>
                 <Container>
                         <ListGroup variant="flush">
-                            <Fade top>
+                            <Fade>
                                 <ListGroup.Item>
                                     MERN Stack
                                 </ListGroup.Item>
                             </Fade>
-                            <Fade bottom>
+                            <Fade>
                                 <ListGroup.Item>
                                     JavaScript
                                 </ListGroup.Item>
                             </Fade>
-                            <Fade top>
+                            <Fade>
                                 <ListGroup.Item>
                                     Back-End Integration
                                 </ListGroup.Item>
                             </Fade>
-                            <Fade bottom>
+                            <Fade>
                                 <ListGroup.Item>
                                     HTML and CSS
                                 </ListGroup.Item>

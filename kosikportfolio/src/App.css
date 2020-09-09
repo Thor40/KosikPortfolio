@@ -24,6 +24,16 @@
   color: white;
 }
 
+.work-header {
+  font-size: calc(30px + 2vmin);
+  color: white;
+  min-height: 5vh;
+}
+
+.pad-top {
+  padding-top: 15vh;
+}
+
 .thumbnail {
   position: relative;
 }

@@ -1,26 +1,22 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
-import { Card, Image, Button, Col, Row, Container } from 'react-bootstrap'
+import { Card, Image, Button, Container } from 'react-bootstrap'
 
 function Project(props) {
 
     return( 
-        <Fade clear>
+        <Fade>
         <Container>
-            <Row>
-                <Col md="auto">
-                    <Card className='project m-5 bg-dark' style={ { border: "none" } }>
-                        <a href={props.url}>
-                            <Image src={`/assets/images/${props.imageSrc}`} alt={props.title} className="projectImg"></Image>
-                        </a>
-                        <Card.Title className="m-3 text-white">{props.title}</Card.Title>
-                        <Card.Body className="text-white">
-                            <p>{props.info}</p>
-                            <Button href={props.github} className="outline-dark">GitHub</Button>
-                        </Card.Body>
-                    </Card>
-                </Col>
-            </Row>
+            <Card className='project m-5 bg-dark' style={ { border: "none" } }>
+                <a href={props.url}>
+                    <Image src={`/assets/images/${props.imageSrc}`} alt={props.title} className="projectImg"></Image>
+                </a>
+                <Card.Title className="m-3 text-white">{props.title}</Card.Title>
+                <Card.Body className="text-white">
+                    <p>{props.info}</p>
+                    <Button href={props.github} variant="outline-light" size="lg">GitHub</Button>
+                </Card.Body>
+            </Card>
         </Container>
             </Fade>
     );

@@ -1,23 +1,28 @@
 import React from 'react';
 import Projects from './Projects';
-import Fade from 'react-reveal/Fade';
+import { Col, Row } from 'react-bootstrap'
+import Flip from 'react-reveal/Flip';
 import data from '../mydata';
 
 function Work() {
 
     return( 
         <div className="bg-dark">
-        <h1 className='heading text-white'>
-        <Fade bottom cascade className="mt-5">Work.</Fade></h1>
+        <h1 className='work-header pad-top'>
+        <Flip bottom cascade>Work.</Flip></h1>
         <div className='work-content'>
+            <Row>
                 {data.projects.map((project)=>(
+                    <Col>
                     <Projects key={project.id}
                              title = {project.title}
                              info = {project.info}
                              imageSrc = {project.imageSrc}
                              url={project.url}
                      ></Projects>
+                     </Col>
                 ))}
+                </Row>
         </div>
         </div>
     );

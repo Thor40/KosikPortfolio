@@ -1,6 +1,7 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 import data from '../mydata';
+import Flip from 'react-reveal/Flip';
 import { Container, Button } from 'react-bootstrap';
 
 function Header() {
@@ -9,10 +10,10 @@ function Header() {
             <Container fluid className="App-header">
                 <Container>
                     <h1>
-                        <Fade bottom cascade>{data.name}</Fade>
+                        <Flip bottom cascade>{data.name}</Flip>
                     </h1>
                 </Container>
-                <Fade bottom>
+                <Fade>
                     <p className='header-title m-5'>
                         {data.headerTagline[0]}
                             <br></br>
@@ -22,7 +23,7 @@ function Header() {
                             <br></br>
                     
                     </p>
-                    <Button variant="outline-secondary dark" size="lg" className="mt-5" block href={`mailto:${data.contactEmail}`}>
+                    <Button variant="outline-light" size="lg" className="mt-5" block href={`mailto:${data.contactEmail}`}>
                         Contact
                     </Button>
                 </Fade>
