@@ -34,9 +34,9 @@
     flex-grow: none;
   }
 
-  .row {
-      margin-right: none;
-      margin-left: none;
+  .NoMargin {
+      margin-right: none !important;
+      margin-left: none !important;
   }
   
   .App-link {

@@ -12,8 +12,8 @@ function Work() {
         <div className="bg-dark">
         <h1 className='work-header pad-top'>
         <Flip bottom cascade>Work.</Flip></h1>
-        <div className='work-content'>
-            <Row>
+        <div>
+            <Row className='NoMargin' noGutters='false'>
                 {data.projects.map((project)=>(
                     <Col key={project.id}>
                     <Projects 
