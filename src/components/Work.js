@@ -4,6 +4,8 @@ import { Col, Row } from 'react-bootstrap'
 import Flip from 'react-reveal/Flip';
 import data from '../mydata';
 
+
+
 function Work() {
 
     return( 
@@ -13,8 +15,8 @@ function Work() {
         <div className='work-content'>
             <Row>
                 {data.projects.map((project)=>(
-                    <Col>
-                    <Projects key={project.id}
+                    <Col key={project.id}>
+                    <Projects 
                              title = {project.title}
                              info = {project.info}
                              imageSrc = {project.imageSrc}
