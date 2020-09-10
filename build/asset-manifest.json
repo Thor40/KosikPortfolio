@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.a75d867d.chunk.css",
-    "main.js": "/static/js/main.834ef361.chunk.js",
-    "main.js.map": "/static/js/main.834ef361.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.0bc3a908.js",
-    "runtime-main.js.map": "/static/js/runtime-main.0bc3a908.js.map",
-    "static/css/2.d9ad5f5c.chunk.css": "/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.4fb952ae.chunk.js": "/static/js/2.4fb952ae.chunk.js",
-    "static/js/2.4fb952ae.chunk.js.map": "/static/js/2.4fb952ae.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.69c154fe654de4953ea80f8ea0906ca3.js": "/precache-manifest.69c154fe654de4953ea80f8ea0906ca3.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.d9ad5f5c.chunk.css.map": "/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.a75d867d.chunk.css.map": "/static/css/main.a75d867d.chunk.css.map",
-    "static/js/2.4fb952ae.chunk.js.LICENSE.txt": "/static/js/2.4fb952ae.chunk.js.LICENSE.txt"
+    "main.css": "/KosikPortfolio/static/css/main.a75d867d.chunk.css",
+    "main.js": "/KosikPortfolio/static/js/main.de4ff3d2.chunk.js",
+    "main.js.map": "/KosikPortfolio/static/js/main.de4ff3d2.chunk.js.map",
+    "runtime-main.js": "/KosikPortfolio/static/js/runtime-main.f3c0a8d0.js",
+    "runtime-main.js.map": "/KosikPortfolio/static/js/runtime-main.f3c0a8d0.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/KosikPortfolio/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.4fb952ae.chunk.js": "/KosikPortfolio/static/js/2.4fb952ae.chunk.js",
+    "static/js/2.4fb952ae.chunk.js.map": "/KosikPortfolio/static/js/2.4fb952ae.chunk.js.map",
+    "index.html": "/KosikPortfolio/index.html",
+    "precache-manifest.3dc2b4096864d2c295cd4070a4770837.js": "/KosikPortfolio/precache-manifest.3dc2b4096864d2c295cd4070a4770837.js",
+    "service-worker.js": "/KosikPortfolio/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/KosikPortfolio/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.a75d867d.chunk.css.map": "/KosikPortfolio/static/css/main.a75d867d.chunk.css.map",
+    "static/js/2.4fb952ae.chunk.js.LICENSE.txt": "/KosikPortfolio/static/js/2.4fb952ae.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.0bc3a908.js",
+    "static/js/runtime-main.f3c0a8d0.js",
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.4fb952ae.chunk.js",
     "static/css/main.a75d867d.chunk.css",
-    "static/js/main.834ef361.chunk.js"
+    "static/js/main.de4ff3d2.chunk.js"
   ]
 }
