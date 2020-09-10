@@ -1,0 +1,49 @@
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .work-header {
+    font-size: calc(30px + 2vmin);
+    color: white;
+    min-height: 5vh;
+  }
+  
+  .pad-top {
+    padding-top: 15vh;
+  }
+  
+  .thumbnail {
+    position: relative;
+  }
+  
+  .caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+  }
+  
+  .col {
+    flex-grow: none;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  .projectImg {
+    height: auto;
+    width: 100%;
+  }
+  
+  .b-none {
+    border: none;
+  }
+  
