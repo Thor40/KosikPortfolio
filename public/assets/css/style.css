@@ -33,6 +33,11 @@
   .col {
     flex-grow: none;
   }
+
+  .row {
+      margin-right: none;
+      margin-left: none;
+  }
   
   .App-link {
     color: #61dafb;
