@@ -20,7 +20,8 @@ function Work() {
                              title = {project.title}
                              info = {project.info}
                              imageSrc = {project.imageSrc}
-                             url={project.url}
+                             url={project.github}
+                             deploy={project.deploy}
                      ></Projects>
                      </Col>
                 ))}

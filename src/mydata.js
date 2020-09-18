@@ -22,7 +22,7 @@ export default
              info:'JavaScript web app using a third party API to allow user to keyword-search for foods, nutrition facts, and recipes.',
              imageSrc:"food.jpg",
              github:'https://github.com/durcoorigin/nutrifinder',
-             deploy: ''
+             deploy: 'https://durcoorigin.github.io/nutrifinder/'
             },
             {
                 id: 1,
@@ -30,15 +30,15 @@ export default
                 info: 'JavaScript web app using MySQL2 and Sequelize to allow users to upload images in this art sharing platform',
                 imageSrc: "art.jpg",
                 github: 'https://github.com/roxyvaught/The-Informed-Artist',
-                deploy: ''
+                deploy: 'https://the-informed-artist.herokuapp.com/'
             },
             { 
                 id: 2,
                 title: 'Help Exchange',
                 info: 'Using MERN stack with MongoDB and Mongoose, and GraphQL, this social media volunteer app allows users to request for help or for volunteering to help.',
                 imageSrc: "help.jpg",
-                github: 'https://rocky-retreat-38962.herokuapp.com/',
-                deploy: ''
+                github: 'https://github.com/andytheelf/Help-Exchange',
+                deploy: 'https://rocky-retreat-38962.herokuapp.com/'
             }
 
             /*
@@ -50,23 +50,5 @@ export default
                 url:
             }
                 */
-        ],
-        social: [
-            // Add Or Remove The Link Accordingly
-            {   name:'github',
-                url:'https://github.com/chetanverma16'},
-            {
-                name: 'Behance',
-                url: 'https://www.behance.net/chetanverma'
-            },
-            {
-                name: 'Dribbble',
-                url: 'https://dribbble.com/chetanverma'
-            },
-            {
-                name: 'Instagram',
-                url: 'https://www.instagram.com/cv.uidesign/'
-            }
-
         ]
     }
