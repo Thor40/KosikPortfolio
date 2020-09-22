@@ -3,15 +3,22 @@ import Fade from 'react-reveal/Fade';
 import { FaGithubSquare  } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import { GrInstagram } from 'react-icons/gr';
+import { Button, Container } from 'react-bootstrap';
+import data from '../mydata';
 
 function Contact() {
 
     return( 
-        <div>
-            <h1 className="mt-5 p-2">
-                    <Fade bottom cascade> Contact</Fade>
-            </h1>
-            <div className="mt-5 p-2">
+        <Container justify>
+              <h1>
+                      <Fade bottom cascade>Contact</Fade>
+              </h1>
+            <div>
+              <Button variant="outline-dark" size="lg" href={`mailto:${data.contactEmail}`}>
+                          Nicholas.kosik@gmail.com
+              </Button>
+            </div>
+            <Container justify className="mt-3 p-2">
               <a
                 href="https://github.com/Thor40"
                 className="m-3"
@@ -27,8 +34,8 @@ function Contact() {
               >
                 <GrInstagram size={80} style={{ fill: 'black' }} />
               </a>
-          </div>  
-        </div>
+          </Container>  
+        </Container>
     );
 };
 
