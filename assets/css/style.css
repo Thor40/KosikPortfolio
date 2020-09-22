@@ -52,3 +52,6 @@
     border: none;
   }
   
+  .center {
+    justify-content: space-between;
+  }
