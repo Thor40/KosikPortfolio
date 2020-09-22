@@ -16,11 +16,17 @@ function About() {
                 <Container>
                     <Fade bottom>
                         <p className='header-title m-5'>
-                        {data.abouttext}
+                        Full-Stack Web Developer with psychology background focusing on first-time client experience and user interaction. Earned certificate in UX/UI and Web Development from the University of Texas at Austin with advanced skills such as JavaScript, React.js, Node.js, and responsive web design. Highly team oriented and self-motivated with a passion for developing applications with user-experience focus.
+                        </p>
+                        <p className='header-title m-5'>
+                        Each project’s aim is to incorporate agile development, allowing the user feedback to explore and expand the direction of the design. I have worked on several previous projects in groups of four using MERN stack, one notably allowing users to request help with tasks or volunteer to help with tasks, like an on-demand delivery app. 
+                        </p>
+                        <p className='header-title m-5'>
+                        I am looking forward to working with a fast-paced, experienced, and user-focused team to build life and work experiences through the web.   
                         </p>
                     </Fade>
                 </Container>
-                <Container>
+                <Container className="mt-5">
                         <ListGroup variant="flush">
                             <Fade>
                                 <ListGroup.Item>

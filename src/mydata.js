@@ -6,14 +6,14 @@ export default
             //Line 1 For Header
                 'Howdy',
             //Line 2 For Header
-                'Full-Stack Web Developer',
+                'Full-Stack Programmer, looking for their next project',
             //Line 3 For Header
-                'from Austin, Texas'
+                'Austin, Texas'
     ],
         //Contact Email
         contactEmail:'nicholas.kosik@gmail.com',
         // About Me Text
-        abouttext: "Full-Stack Programmer, looking for their next project.",
+        abouttext: ``,
         // aboutImage:'../assets/images/image0.jpeg', pic of me
        projects:[
            {
