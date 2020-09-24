@@ -37,7 +37,7 @@ $ npm start
 ```
 This will bring up a page on the browser from localhost 3001
 --------------------
-Alternatively, you can find the app deployed on [GitHub Pages](https://thor40.github.io/ReactPortfolio/)
+Alternatively, you can find the app deployed on [GitHub Pages](https://thor40.github.io/KosikPortfolio/)
 
 ## Features
 --------------------
@@ -45,3 +45,5 @@ Alternatively, you can find the app deployed on [GitHub Pages](https://thor40.gi
 * ABOUT
 * WORK
 * CONTACT
+
+![Screen Shot](public/assets/images/Screen_Shot.jpg)
